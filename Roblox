@@ -690,7 +690,7 @@ Groups.HitTiming = Tabs.Main:AddLeftGroupbox('Hit timing')
     })
 
     Groups.HitTiming:AddLabel('Manual delay')
-    Groups.HitTiming:AddSlider('ReleaseDelay',   { Text = 'Note delay', Min = 0, Max = 500, Default = 20, Rounding = 0, Compact = true, Suffix = 'ms' })
+    Groups.HitTiming:AddSlider('ReleaseDelay',   { Text = 'Note delay', Min = 0, Max = 500, Default = 0, Rounding = 0, Compact = true, Suffix = 'ms' })
     Groups.HitTiming:AddSlider('HeldDelay',      { Text = 'Held note delay', Min = -20, Max = 100, Default = 0, Rounding = 0, Compact = true, Suffix = 'ms' })
         
     Groups.HitTiming:AddLabel('Random delay')
