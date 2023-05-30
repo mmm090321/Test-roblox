@@ -657,7 +657,7 @@ Tabs.Main = Window:AddTab('Main')
 Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
 Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
-    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'End', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'Z', NoUI = true, SyncToggleState = true })
     Groups.Autoplayer:AddDropdown('PressMode', {
         Text = 'Input mode', 
         Compact = true, 
@@ -733,7 +733,7 @@ Groups.Misc = Tabs.Miscellaneous:AddRightGroupbox('Miscellaneous')
         end
     end)
 
-    Groups.Misc:AddLabel('Menu toggle'):AddKeyPicker('MenuToggle', { Default = 'V', NoUI = true })
+    Groups.Misc:AddLabel('Menu toggle'):AddKeyPicker('MenuToggle', { Default = 'X', NoUI = true })
 
     UI.ToggleKeybind = Options.MenuToggle
 
