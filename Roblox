@@ -661,7 +661,7 @@ Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
     Groups.Autoplayer:AddDropdown('PressMode', {
         Text = 'Input mode', 
         Compact = true, 
-        Default = 'firesignal', 
+        Default = 'virtual input', 
         Values = { 'firesignal', 'virtual input' }, 
         Tooltip = 'Input method used to press arrows.\n* firesignal: calls input functions directly.\n* virtual input: emulates key presses. use if "firesignal" does not work.', 
     })
